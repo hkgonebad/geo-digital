@@ -6,8 +6,7 @@ import path from "path";
 export default defineConfig(({ mode }) => ({
   base: mode === "production" ? "/geo-digital/" : "/",
   server: {
-    host: "::",
-    port: 8080,
+    hmr: true,
   },
   plugins: [react()],
   resolve: {
