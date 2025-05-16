@@ -1,4 +1,4 @@
-import React from "react";
+import img from "/uploads/geodigital.png";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 bg-primary rounded-full absolute -right-8 -top-8 z-0"></div>
-              <img src="/uploads/geodigital.png" alt="GEO.digital branding" className="relative z-10 rounded-lg shadow-2xl max-w-full" />
+              <img src={img} alt="GEO.digital branding" className="relative z-10 rounded-lg shadow-2xl max-w-full" />
             </div>
           </div>
         </div>
