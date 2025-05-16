@@ -1,0 +1,21 @@
+{
+  "name": "GeoDigital",
+  "short_name": "GeoDigital",
+  "start_url": "/geo-digital/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7EC4CF",
+  "description": "GeoDigital provides innovative geospatial solutions for businesses and organizations.",
+  "icons": [
+    {
+      "src": "/upload/geodigital",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/upload/geodigital",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
