@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200 transition-colors py-2 px-4 lg:px-8 w-full">
+    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200 transition-colors py-2 px-4 lg:px-8 w-full">
       <div className="container px-0 lg:px-6 mx-auto flex justify-between items-center relative">
         <a className="flex items-center" href="#">
           {/* <h1 className="text-3xl font-bold">
@@ -64,7 +64,7 @@ const Header = () => {
           </a>
         </nav>
         <Button className="hidden md:block btn-primary">Get a Quote</Button>
-        <button className="md:hidden text-2xl focus:outline-none" aria-label="Open menu" onClick={handleMenuToggle}>
+        <button className="md:hidden text-2xl focus:outline-hidden" aria-label="Open menu" onClick={handleMenuToggle}>
           ☰
         </button>
         {/* Mobile menu */}
