@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import React, { useState } from "react";
+import { useState } from "react";
+import logo from "/img/logo.svg";
 
 const scrollToSection = (hash: string) => {
   const el = document.getElementById(hash.replace("#", ""));
@@ -22,13 +23,14 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200 transition-colors py-2 px-4 lg:px-8 w-full">
       <div className="container px-0 lg:px-6 mx-auto flex justify-between items-center relative">
-        <div className="flex items-center">
-          <h1 className="text-3xl font-bold">
+        <a className="flex items-center" href="#">
+          {/* <h1 className="text-3xl font-bold">
             <span className="text-black">GEO</span>
             <span className="text-secondary">.</span>
             <span className="text-black">digital</span>
-          </h1>
-        </div>
+          </h1> */}
+          <img src={logo} alt="GEO.digital" className="h-16" />
+        </a>
         <nav className="hidden md:flex space-x-8">
           <a
             href="#services"

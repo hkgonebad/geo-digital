@@ -83,7 +83,7 @@
 }
 
 .dot {
-  @apply w-2 h-2 rounded-full bg-primary;
+  @apply w-2 h-2 rounded-full;
 }
 
 .diagonal-section {
@@ -107,7 +107,7 @@
 }
 
 .btn-secondary {
-  @apply bg-secondary text-black font-bold py-3 px-6 rounded-full transition-all hover:scale-105 hover:shadow-lg;
+  @apply bg-brand-red text-white font-bold py-3 px-6 rounded-full transition-all hover:scale-105 hover:shadow-lg;
 }
 
 /* Accessibility: Skip to content link */
